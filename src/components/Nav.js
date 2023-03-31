@@ -10,19 +10,23 @@ function Nav() {
 
 const renderState = () => {
     switch (currentState) {
-        case 'About Me':
-            return <AboutMe />;
-        case 'Resume':
-            return <Resume />;
-        case 'Portfolio':
-            return <Portfolio />;
-        case 'Contact':
-            return <Contact />;
-        default:
-            return <AboutMe />;
+        case 'About Me': return <AboutMe />;
+        case 'Resume': return <Resume />;
+        case 'Portfolio': return <Portfolio />;
+        case 'Contact': return <Contact />;
+        default: return <AboutMe />;
     }
 };
 
-
+return (
+    <div className='nav-container'>
+        <nav>
+            <a href=''></a>
+            <a href=''></a>
+            <a href=''></a>
+            <a href=''></a>
+        </nav>
+    </div>
+)
 
 export default Nav;
