@@ -4,10 +4,14 @@ function AboutMe() {
     return (
         <div>
             <h2>About Scott George...</h2>
-            <img src=''>
+            <img src='src/img/me.jpg' alt='A fantastic picture of me, Mr. Scott George'>
             </img>
             <p className='sections'>
-                a 28 year old full-stack web developer and musician with a passion for technology, music, & execellence. Freshly graduated from the <a href=''>UConn Coding Bootcamp</a>, I am ready to start my WebDev career.
+                a 28 year old full-stack web developer and musician with a passion for technology, music, & execellence. Freshly graduated from the <a href='https://media.trilogyed.com/UConn/coding/uconn_curriculum_overview_fullstackflex_pt.pdf'>UConn Coding Bootcamp</a>, I am ready to start my WebDev career.
+            </p>
+            <br />
+            <p>
+                Please, stay awhile & check out my work using the NavBar up top.
             </p>
         </div>
     );
