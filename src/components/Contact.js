@@ -5,7 +5,6 @@ function Contact() {
     return (
         <div className='sections'>
             <h2>Contact</h2>
-            <hr />
 
             <form onSubmit={formSubmit}>
 

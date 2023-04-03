@@ -26,6 +26,10 @@ return (
             <a href='/Contact'>Contact</a>
             <a href='/Resume'>Resume</a>
         </nav>
+
+        <main>
+            {renderState(currentState)}
+        </main>
     </div>
 )
 
