@@ -1,36 +1,28 @@
 import React, { useState } from 'react'; // hook for state memory
-import AboutMe from './AboutMe';
-import Portfolio from './Portfolio';
-import Contact from './Contact'
-import Resume from './Resume';
 
 function Nav() {
-    const [currentState, changeState] = useState('AboutMe');
+    return (
+        <div>
+            <nav>
+                <a href='/AboutMe'>About Me</a>
+                <a href='/Portfolio'>Portfolio</a>
+                <a href='/Contact'>Contact</a>
+                <a href='/Resume'>Resume</a>
+            </nav>
+        </div>
+    )
 }
 
-const renderState = () => {
-    switch (currentState) {
-        case 'About Me': return <AboutMe />;
-        case 'Portfolio': return <Portfolio />;
-        case 'Contact': return <Contact />;
-        case 'Resume': return <Resume />;
-        default: return <AboutMe />;
-    }
-};
+// const renderState = () => {
+//     switch (currentState) {
+//         case 'About Me': return <AboutMe />;
+//         case 'Portfolio': return <Portfolio />;
+//         case 'Contact': return <Contact />;
+//         case 'Resume': return <Resume />;
+//         default: return <AboutMe />;
+//     }
+// };
 
-return (
-    <div className='nav-container'>
-        <nav>
-            <a href='/AboutMe'>About Me</a>
-            <a href='/Portfolio'>Portfolio</a>
-            <a href='/Contact'>Contact</a>
-            <a href='/Resume'>Resume</a>
-        </nav>
 
-        <main>
-            {renderState(currentState)}
-        </main>
-    </div>
-)
 
 export default Nav;

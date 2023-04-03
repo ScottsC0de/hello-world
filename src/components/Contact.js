@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { validEmail } from 'src/utils/helpers.js';
+// import { validEmail } from 'src/utils/helpers.js';
 
 function Contact() {
     return (
         <div className='sections'>
             <h2>Contact</h2>
 
-            <form onSubmit={formSubmit}>
+            <form>
 
                 <label>Name:
                     <input type="text" name="name" />
