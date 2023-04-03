@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 function Contact() {
     return (
-        <div className='sections'>
+        <div>
             <h2>Contact</h2>
 
             <form>

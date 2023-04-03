@@ -1,15 +1,19 @@
 import React from 'react';
 
+import GitHubLogo from '../img/githubpng.png';
+import LinkedInLogo from '../img/linkedinlogo.png';
+import YouTubeLogo from '../img/youtubepng.png';
+
 function Footer() {
     return (
         <div>
             <footer>
-                <a href="https://github.com/ScottsC0de" target="_blank"><img src="public/img/githubpng.png"
+                <a href="https://github.com/ScottsC0de" target="_blank"><img src={GitHubLogo}
                     alt="GitHub logo linked to my account" width={70} height={70}></img></a>
-                <a href='www.linkedin.com' target='_blank'><img src='src/img/linkedinlogo.png' alt='LinkedIn logo' width={60} height={60}></img>LinkedIn</a>
+                <a href='www.linkedin.com' target='_blank'><img src={LinkedInLogo} alt='LinkedIn logo' width={70} height={70}></img></a>
                 <a href="https://www.youtube.com/channel/UCk-sgTvFeA_LQx-MTba9tZA" target="_blank"><img
-                    src="public/img/youtubepng.png" alt="YouTune logo linked to my account" width={50}
-                    height={50}></img></a>
+                    src={YouTubeLogo} alt="YouTune logo linked to my account" width={70}
+                    height={70}></img></a>
             </footer>
         </div>
     );

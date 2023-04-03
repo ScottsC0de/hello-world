@@ -1,4 +1,4 @@
-import React, { useState } from 'react'; // hook for state memory
+import React, { useState } from 'react';
 
 function Nav() {
     return (

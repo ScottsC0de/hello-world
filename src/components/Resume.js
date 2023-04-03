@@ -2,7 +2,7 @@ import React from 'react';
 
 function Resume() {
   return (
-    <div className="sections">
+    <div>
       <p>
         Down page 1 of my resume <a href='public/assets/resume1.png' download>here</a>,
         <br />
