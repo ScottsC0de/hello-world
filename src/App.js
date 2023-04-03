@@ -1,3 +1,27 @@
+import React from 'react';
+
+import Header from './components/Header';
+import Nav from './components/Nav';
+import AboutMe from './components/AboutMe';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
+import Footer from './components/Footer';
+
+function App() {
+  return (
+    <Header></Header>,
+    <Nav></Nav>,
+    <AboutMe></AboutMe>,
+    <Portfolio></Portfolio>,
+    <Contact></Contact>,
+    <Resume></Resume>,
+    <Footer></Footer>
+  )
+}
+
+export default App;
+
 // import logo from './logo.svg';
 // import './App.css';
 
@@ -21,16 +45,3 @@
 //     </div>
 //   );
 // }
-
-import React from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
-
-function App() {
-  return (
-    <Header></Header>,
-    <Footer></Footer>
-  )
-}
-
-export default App;

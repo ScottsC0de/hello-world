@@ -4,7 +4,7 @@ function AboutMe() {
     return (
         <div className='sections'>
             <h2>About Scott George...</h2>
-            <img src='src/img/me.jpg' alt='A fantastic picture of me, Mr. Scott George'>
+            <img src='src/img/me.jpg' alt='A fantastic picture of me'>
             </img>
             <p>
                 a 28 year old full-stack web developer and musician with a passion for technology, music, & execellence. Freshly graduated from the <a href='https://media.trilogyed.com/UConn/coding/uconn_curriculum_overview_fullstackflex_pt.pdf'>UConn Coding Bootcamp</a>, I am ready to start my WebDev career.
@@ -15,6 +15,6 @@ function AboutMe() {
             </p>
         </div>
     );
-}
+};
 
 export default AboutMe;

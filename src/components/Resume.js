@@ -4,11 +4,11 @@ function Resume() {
   return (
     <div className="sections">
       <p>
-        You can download page 1 of my awesome resume <a href='public/assets/resume1.png' download>here</a>,
+        Down page 1 of my resume <a href='public/assets/resume1.png' download>here</a>,
         <br />
-        Page 2 right <a href='public/assets/resume2.png' download>here</a>
+        Page 2 right <a href='public/assets/resume2.png' download>here</a>,
         <br />
-        Or view it as a GitHub gist here: <a href='https://gist.github.com/ScottsC0de/2ade3611df58b6ad7b4c198aaa16eef4'>My Awesome Resume</a>
+        Or view it as a GitHub gist <a href='https://gist.github.com/ScottsC0de/2ade3611df58b6ad7b4c198aaa16eef4'>here</a>
       </p>
       <br />
       <h3>Front-End Artistries</h3>

@@ -1,8 +1,8 @@
 import React, { useState } from 'react'; // hook for state memory
-import AboutMe from './sections/AboutMe';
-import Portfolio from './sections/Portfolio';
-import Contact from './sections/Contact'
-import Resume from './sections/Resume';
+import AboutMe from './AboutMe';
+import Portfolio from './Portfolio';
+import Contact from './Contact'
+import Resume from './Resume';
 
 function Nav() {
     const [currentState, changeState] = useState('AboutMe');
@@ -21,10 +21,10 @@ const renderState = () => {
 return (
     <div className='nav-container'>
         <nav>
-            <a href=''>About Me</a>
-            <a href=''>Portfolio</a>
-            <a href=''>Contact</a>
-            <a href=''>Resume</a>
+            <a href='/AboutMe'>About Me</a>
+            <a href='/Portfolio'>Portfolio</a>
+            <a href='/Contact'>Contact</a>
+            <a href='/Resume'>Resume</a>
         </nav>
     </div>
 )
