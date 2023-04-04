@@ -12,12 +12,21 @@ function Contact() {
                     <input type="text" name="name" />
                 </label>
 
+                <br /><br />
+
                 <label>Email:
                     <input type="text" name="name" />
                 </label>
 
-                <label>Message</label>
+                <br /><br />
+
+                <label>Leave a Message</label>
+
+                <br />
+
                 <textarea name="message" rows={7} cols={70} />
+
+                <br />
 
                 <button type="submit">Submit</button>
             </form>

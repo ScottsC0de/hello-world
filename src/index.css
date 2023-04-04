@@ -23,6 +23,10 @@ code {
     monospace;
 }
 
+textarea {
+  padding: 10px;
+}
+
 .section-headers {
   padding: 15px;
 }
