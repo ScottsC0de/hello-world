@@ -3,12 +3,13 @@ import React from 'react';
 function Resume() {
   return (
     <div>
+      <h2 className='section-headers'>Resume</h2>
       <p>
-        Down page 1 of my resume <a href='public/assets/resume1.png' download>here</a>,
+        Down page 1 of my resume <a href='public/assets/resume1.pdf' download>here</a>,
         <br />
-        Page 2 right <a href='public/assets/resume2.png' download>here</a>,
+        Page 2 right <a href='public/assets/resume2.pdf' download>here</a>,
         <br />
-        Or view it as a GitHub gist <a href='https://gist.github.com/ScottsC0de/2ade3611df58b6ad7b4c198aaa16eef4'>here</a>
+        Or view it as a GitHub gist <a href='https://gist.github.com/ScottsC0de/2ade3611df58b6ad7b4c198aaa16eef4' target='_blank'>here</a>
       </p>
       <br />
       <h3>Front-End Artistries</h3>

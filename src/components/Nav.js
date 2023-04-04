@@ -5,8 +5,11 @@ function Nav() {
         <div>
             <nav>
                 <a href='/AboutMe'>About Me</a>
+                <br />
                 <a href='/Portfolio'>Portfolio</a>
+                <br />
                 <a href='/Contact'>Contact</a>
+                <br />
                 <a href='/Resume'>Resume</a>
             </nav>
         </div>

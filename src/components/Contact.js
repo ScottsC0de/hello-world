@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 function Contact() {
     return (
         <div>
-            <h2>Contact</h2>
+            <h2 className='section-headers'>Contact</h2>
 
             <form>
 
@@ -19,13 +19,13 @@ function Contact() {
                 <label>Message</label>
                 <textarea name="message" rows={7} cols={70} />
 
-                // need form submit function
-                // need error Message
-
                 <button type="submit">Submit</button>
             </form>
         </div >
     );
 };
+
+// need form submit function
+// need error Message
 
 export default Contact;

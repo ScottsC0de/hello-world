@@ -10,13 +10,17 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <Header></Header>,
-    <Nav></Nav>,
-    <AboutMe></AboutMe>,
-    <Portfolio></Portfolio>,
-    <Contact></Contact>,
-    <Resume></Resume>,
-    <Footer></Footer>
+
+    <div className='text-center'>
+      <Header />
+      <Nav />
+      <AboutMe />
+      <Portfolio />
+      <Contact />
+      <Resume />
+      <Footer />
+    </div>
+
   )
 }
 
